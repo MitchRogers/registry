@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct registryApp: App {
+    @StateObject var viewModel = RegistryViewModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                ContentView()
+            }
+            .environmentObject(viewModel)
         }
     }
 }

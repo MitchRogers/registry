@@ -11,6 +11,15 @@
 		CFAC645229C36A3400F7BBD9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAC645129C36A3400F7BBD9 /* ContentView.swift */; };
 		CFAC645429C36A3500F7BBD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFAC645329C36A3500F7BBD9 /* Assets.xcassets */; };
 		CFAC645729C36A3500F7BBD9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFAC645629C36A3500F7BBD9 /* Preview Assets.xcassets */; };
+		CFAC646229C36B4700F7BBD9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAC646129C36B4700F7BBD9 /* User.swift */; };
+		CFAC646429C36B5300F7BBD9 /* GiftList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAC646329C36B5300F7BBD9 /* GiftList.swift */; };
+		CFAC646629C36B5800F7BBD9 /* Gift.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAC646529C36B5800F7BBD9 /* Gift.swift */; };
+		CFAC646829C36B6700F7BBD9 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAC646729C36B6700F7BBD9 /* Credentials.swift */; };
+		CFAC646A29C36B7A00F7BBD9 /* Friendship.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAC646929C36B7A00F7BBD9 /* Friendship.swift */; };
+		CFAC646D29C36BC100F7BBD9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAC646C29C36BC100F7BBD9 /* LoginView.swift */; };
+		CFAC646F29C36BD100F7BBD9 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAC646E29C36BD100F7BBD9 /* SignupView.swift */; };
+		CFAC647129C36BFF00F7BBD9 /* RegistryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAC647029C36BFF00F7BBD9 /* RegistryViewModel.swift */; };
+		CFAC647429C36C7A00F7BBD9 /* PostgresClientKit in Frameworks */ = {isa = PBXBuildFile; productRef = CFAC647329C36C7A00F7BBD9 /* PostgresClientKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		CFAC645129C36A3400F7BBD9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CFAC645329C36A3500F7BBD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFAC645629C36A3500F7BBD9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFAC645D29C36AF000F7BBD9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CFAC646129C36B4700F7BBD9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CFAC646329C36B5300F7BBD9 /* GiftList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GiftList.swift; path = ../../../../../../../Applications/GiftList.swift; sourceTree = "<group>"; };
+		CFAC646529C36B5800F7BBD9 /* Gift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gift.swift; sourceTree = "<group>"; };
+		CFAC646729C36B6700F7BBD9 /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		CFAC646929C36B7A00F7BBD9 /* Friendship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friendship.swift; sourceTree = "<group>"; };
+		CFAC646C29C36BC100F7BBD9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CFAC646E29C36BD100F7BBD9 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		CFAC647029C36BFF00F7BBD9 /* RegistryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistryViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFAC647429C36C7A00F7BBD9 /* PostgresClientKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,9 +71,12 @@
 			isa = PBXGroup;
 			children = (
 				CFAC644F29C36A3400F7BBD9 /* registryApp.swift */,
-				CFAC645129C36A3400F7BBD9 /* ContentView.swift */,
 				CFAC645329C36A3500F7BBD9 /* Assets.xcassets */,
+				CFAC645E29C36AF400F7BBD9 /* Model */,
+				CFAC645F29C36AF900F7BBD9 /* View */,
+				CFAC646029C36AFD00F7BBD9 /* ViewModel */,
 				CFAC645529C36A3500F7BBD9 /* Preview Content */,
+				CFAC645D29C36AF000F7BBD9 /* README.md */,
 			);
 			path = registry;
 			sourceTree = "<group>";
@@ -65,6 +87,44 @@
 				CFAC645629C36A3500F7BBD9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFAC645E29C36AF400F7BBD9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CFAC646129C36B4700F7BBD9 /* User.swift */,
+				CFAC646329C36B5300F7BBD9 /* GiftList.swift */,
+				CFAC646529C36B5800F7BBD9 /* Gift.swift */,
+				CFAC646729C36B6700F7BBD9 /* Credentials.swift */,
+				CFAC646929C36B7A00F7BBD9 /* Friendship.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CFAC645F29C36AF900F7BBD9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CFAC646B29C36BB600F7BBD9 /* Auth */,
+				CFAC645129C36A3400F7BBD9 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CFAC646029C36AFD00F7BBD9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CFAC647029C36BFF00F7BBD9 /* RegistryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CFAC646B29C36BB600F7BBD9 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				CFAC646C29C36BC100F7BBD9 /* LoginView.swift */,
+				CFAC646E29C36BD100F7BBD9 /* SignupView.swift */,
+			);
+			path = Auth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +143,9 @@
 			dependencies = (
 			);
 			name = registry;
+			packageProductDependencies = (
+				CFAC647329C36C7A00F7BBD9 /* PostgresClientKit */,
+			);
 			productName = registry;
 			productReference = CFAC644C29C36A3400F7BBD9 /* registry.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +174,9 @@
 				Base,
 			);
 			mainGroup = CFAC644329C36A3400F7BBD9;
+			packageReferences = (
+				CFAC647229C36C7A00F7BBD9 /* XCRemoteSwiftPackageReference "PostgresClientKit" */,
+			);
 			productRefGroup = CFAC644D29C36A3400F7BBD9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +203,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFAC646829C36B6700F7BBD9 /* Credentials.swift in Sources */,
 				CFAC645229C36A3400F7BBD9 /* ContentView.swift in Sources */,
+				CFAC646629C36B5800F7BBD9 /* Gift.swift in Sources */,
+				CFAC646A29C36B7A00F7BBD9 /* Friendship.swift in Sources */,
 				CFAC645029C36A3400F7BBD9 /* registryApp.swift in Sources */,
+				CFAC646229C36B4700F7BBD9 /* User.swift in Sources */,
+				CFAC646D29C36BC100F7BBD9 /* LoginView.swift in Sources */,
+				CFAC647129C36BFF00F7BBD9 /* RegistryViewModel.swift in Sources */,
+				CFAC646F29C36BD100F7BBD9 /* SignupView.swift in Sources */,
+				CFAC646429C36B5300F7BBD9 /* GiftList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +413,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CFAC647229C36C7A00F7BBD9 /* XCRemoteSwiftPackageReference "PostgresClientKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/codewinsdotcom/PostgresClientKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CFAC647329C36C7A00F7BBD9 /* PostgresClientKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CFAC647229C36C7A00F7BBD9 /* XCRemoteSwiftPackageReference "PostgresClientKit" */;
+			productName = PostgresClientKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CFAC644429C36A3400F7BBD9 /* Project object */;
 }
